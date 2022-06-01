@@ -2,6 +2,9 @@
 
 It includes the following features:
 
+- NFT thirdweb's drop contract for lazy minting our NFTs and makes them available to be claimed by users
+- Discord bot embedded into our website. It allows our website guests to see and reply to messages in real-time, directly on our site - even if they    don't have a Discord account
+- The thirdweb Marketplace contract where you can buy and sell NFTs, such as to OpenSea or Rarible.
 - Multiple stages - with the ability to add multiple sessions on each stage
 - Each stage can be configured as -
   - An embedded YouTube stream OR 
