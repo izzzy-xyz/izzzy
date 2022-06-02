@@ -114,7 +114,7 @@ const PreviewContainer: React.FC<{ name: string }> = ({ name }) => {
 };
 
 const PreviewVideo: React.FC<{ videoTrack: HMSPeer['videoTrack'] }> = ({ videoTrack }) => {
-  const ref = useVideo(videoTrack || 'HMSPeer');
+  const ref = useVideo(videoTrack || '');
   return (
     <video
       className={`w-full h-full rounded-lg object-cover mirror`}
