@@ -1,13 +1,13 @@
 {
-  "name": "izzzy",
-  "description": "An interactive blockchain online experience by the community.",
+  "name": "virtual-event-starter-kit",
+  "description": "Starter kit for your virtual event.",
   "private": true,
-  "repository": "izzzy-xyz/izzzy.xyz",
-  "author": "Izzzy Inc.",
-  "homepage": "https://izzzy.xyz",
+  "repository": "vercel/virtual-event-starter-kit",
+  "author": "Vercel Inc.",
+  "homepage": "https://demo.vercel.events",
   "license": "Apache-2.0",
   "engines": {
-      "node": ">=16.0.0"
+    "node": ">=16.0.0"
   },
   "scripts": {
     "lint": "next lint",
