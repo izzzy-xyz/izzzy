@@ -5,6 +5,7 @@ interface ControlButtonProps {
   text: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   className?: string;  
+  children: React.ReactNode;
 }
 
 const ControlButton: React.FC<ControlButtonProps> = ({ active, text, children, onClick, className = '', ...props}) => {
