@@ -1,13 +1,14 @@
 import React from 'react';
 
-interface Props {
+interface ControlButtonProps {
   active?: boolean;
   text: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
-  className?: string;  
+  className?: string; 
+  children: React.ReactNode;
 }
 
-const ControlButton: React.FC<Props> = ({ active, text, children, onClick, className = '', ...props}) => {
+const ControlButton: React.FC<ControlButtonProps> = ({ active, text, children, onClick, className = '', ...props}) => {
   return (
     <div className="flex flex-col items-center">
       <button
