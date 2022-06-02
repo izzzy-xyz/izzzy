@@ -113,6 +113,10 @@ const PreviewContainer: React.FC<{ name: string }> = ({ name }) => {
   );
 };
 
+interface PreviewVideo {
+  videoTrack?: string; // 👈️ added 
+}
+
 const PreviewVideo: React.FC<{ videoTrack: HMSPeer['videoTrack'] }> = ({ videoTrack }) => {
   const ref = useVideo(videoTrack || '');
   return (
