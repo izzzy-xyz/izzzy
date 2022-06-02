@@ -2,7 +2,7 @@
 
 It includes the following features:
 
-- NFT thirdweb's drop contract for lazy minting our NFTs and makes them available to be claimed by users
+- NFT thirdweb drop contract for minting NFTs and makes them available to be claimed by users
 - Discord bot embedded into our website. It allows our website guests to see and reply to messages in real-time, directly on our site - even if they    don't have a Discord account
 - The thirdweb Marketplace contract where you can buy and sell NFTs, such as to OpenSea or Rarible.
 - Multiple stages - with the ability to add multiple sessions on each stage
@@ -28,6 +28,8 @@ This platform is built upon three principles:
 - Framework: [Next.js](https://nextjs.org/)
   - [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support)
   - [TypeScript](https://nextjs.org/docs/basic-features/typescript)
+- NFT: [Drop](https://thirdweb.com/)
+- WidgetBot: [Discord](https://widgetbot.io/)
 - CMS: [Multiple Options](https://github.com/vercel/virtual-event-starter-kit#cms)
 - Video (Pre-recorded): [YouTube](https://www.youtube.com/)
 - Live interactive video: [100ms](http://www.100ms.live)
@@ -38,7 +40,7 @@ This platform is built upon three principles:
 ## What’s New?
 
 
-The virtual events starter kit now has added support for organising truly LIVE virtual events. You can quickly setup a live stage and invite speakers to interact with viewers. Live audio-video opens up a ton of possibilities with respect to what you can do with this template. You can use it for:
+The interactive blockchain online experience now has added support for organising truly LIVE virtual events. You can quickly setup a live stage and invite speakers to interact with viewers. Live audio-video opens up a ton of possibilities with respect to what you can do with this template. You can use it for:
 
 1. Live Webinars
 2. Community Calls
@@ -124,6 +126,14 @@ Environment variables determine which CMS to use. See [lib/cms-api.ts](https://
 `lib/constants.ts` contains a list of variables you should customize.
 
 Note - In case you're looking to add live audio-video to the events template, we'd recommend you to move ahead with DatoCMS for a seamless integration experience. We've created a dato + 100ms integration that will help you to integrate both 100ms and DatoCMS to your vercel account in a few clicks.
+
+---
+
+In case you're looking to add discord server in real-time, directly on your site - even if they don't have a Discord account, we'd recommend you to move ahead with  WidgetBot for a seamless integration experience. Integration that will help you to integrate discord in a few lines of code.
+
+---
+
+In case you're looking to add NFT drop contracts, your own currency - and makes them available to be claimed, we'd recommend you to move ahead with ThirdWeb for a seamless integration experience. Integration that will help you to integrate drop contracts in a few lines of code.
 
 ---
 
