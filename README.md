@@ -36,6 +36,7 @@ This platform is built upon three principles:
 - Deployment: [Vercel](https://vercel.com/)
 - Authentication: [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/authorizing-oauth-apps)
 - Database: [Redis](https://redis.io/)
+- Template: [Vercel](https://github.com/vercel/virtual-event-starter-kit)
 
 ## What’s New?
 
