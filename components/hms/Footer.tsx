@@ -54,7 +54,7 @@ const Footer = () => {
       ) : null}
 
       <SettingDialog>
-         <ControlButton text="Setting" onClick={(props: any) => {props.children}}> 
+        <ControlButton text="Setting" onClick={() => {}}> 
           <SettingIcon />
         </ControlButton>
       </SettingDialog>
