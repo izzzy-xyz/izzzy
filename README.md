@@ -75,6 +75,18 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000/) to see the landing page.
 
+### Minting
+
+![join](/media/mint.png)
+
+### Listing
+
+![join](/media/listing.png)
+
+### Discord
+
+![join](/media/embed.png)
+
 ### Stages
 
 There are four different stages included in the seed data. Feel free to add or remove these based on your schedule. Each stage can be easily configured to be a Live Video/Audio experience or an embedded YouTube stream. (You can do all of these configurations via DatoCMS console)
