@@ -7,11 +7,7 @@ import { AudioLevelIcon } from '@100mslive/react-icons';
 import Button from './Button';
 import { useDevices, DeviceType } from './lib/useDevices';
 
-type SettingDialogProps = {
-  children: React.ReactNode; // 👈️ define children prop
-};
-
-const SettingDialog: React.FC<SettingDialogProps> = ({ children }) => {
+const SettingDialog: React.FC = ({ children }) => {
   const { allDevices, selectedDeviceIDs, updateDevice, isAllowedToPublish } = useDevices();
   const videoInput = allDevices['videoInput'] || [];
   const audioInput = allDevices['audioInput'] || [];

@@ -1,13 +1,14 @@
 import React from 'react';
 
-interface Props {
+interface ControlButtonProps {
   active?: boolean;
   text: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   className?: string; 
+  children: React.ReactNode;
 }
 
-const ControlButton: React.FC<Props> = ({ active, text, children, onClick, className = '' }) => {
+const ControlButton: React.FC<ControlButtonProps> = ({ active, text, children, onClick, className = '', ...props}) => {
   return (
     <div className="flex flex-col items-center">
       <button
@@ -15,7 +16,7 @@ const ControlButton: React.FC<Props> = ({ active, text, children, onClick, class
         type="button"
         className={`flex items-center justify-center w-11 h-11 rounded-full border-solid border-2 ${
           active ? 'border-gray-200' : 'border-gray-base'
-        } focus:outline-none focus:border-gray-400 focus:bg-gray-800 ${className}`}
+        } focus:outline-none focus:border-gray-400 focus:bg-gray-800 ${className}`} {...props}
       >
         {children}
       </button>
@@ -24,4 +25,4 @@ const ControlButton: React.FC<Props> = ({ active, text, children, onClick, class
   );
 };
 
-export default ControlButton;
+export default ControlButton; 

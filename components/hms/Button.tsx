@@ -5,7 +5,7 @@ interface ButtonProps {
   type?: JSX.IntrinsicElements['button']['type'];
   variant?: 'secondary' | 'primary' | 'danger';
   className?: string;
-}
+} 
 
 const Button: React.FC<ButtonProps & JSX.IntrinsicElements['button']> = ({
   type = 'button',
