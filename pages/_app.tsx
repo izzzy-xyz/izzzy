@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <SSRProvider>
       <OverlayProvider>
         <HMSRoomProvider>
-          <Component {...pageProps} />
+          <><Component {...pageProps} /></>
           <ResizeHandler />
           <NProgress />
         </HMSRoomProvider>
