@@ -21,6 +21,7 @@ module.exports = {
     // your project has type errors.
     // !! WARN !!
     ignoreBuildErrors: true,
+  },
   images: {
     domains: [
       'www.datocms-assets.com',
