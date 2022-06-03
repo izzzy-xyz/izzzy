@@ -46,24 +46,8 @@ export const NAVIGATION = [
     route: '/mint'
   },
   {
-    name: 'Live Stage',
-    route: '/stage/a'
-  },
-  {
     name: 'Nfts',
     route: '/nfts'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
-  },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
   },
   {
     name: 'Info',
@@ -72,10 +56,6 @@ export const NAVIGATION = [
   {
     name: 'Roadmap',
     route: '/roadmap'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
   },
   {
     name: 'Discord',
