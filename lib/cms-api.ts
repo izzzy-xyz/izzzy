@@ -29,7 +29,7 @@ let cmsApi: {
   getAllJobs: () => Promise<Job[]>;
 };
 
-if (process.env.DATOCMS_READ_ONLY_API_TOKEN) {
+if (process.env.DATO_API_TOKEN) {
   cmsApi = datoCmsApi;
 } else if (process.env.CONTENTFUL_ACCESS_TOKEN && process.env.CONTENTFUL_SPACE_ID) {
   cmsApi = contentfulApi;
