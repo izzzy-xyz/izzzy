@@ -46,6 +46,10 @@ export const NAVIGATION = [
     route: '/mint'
   },
   {
+    name: 'Speakers',
+    route: '/Speakers'
+  },
+  {
     name: 'Nfts',
     route: '/nfts'
   },
@@ -60,6 +64,18 @@ export const NAVIGATION = [
   {
     name: 'Discord',
     route: '/discord'
+  },
+  {
+    name: 'Jobs',
+    route: '/jobs'
+  },
+  {
+    name: 'Schedule',
+    route: '/schedule'
+  },
+  {
+    name: 'Expo',
+    route: '/expo'
   },
 ];
 
